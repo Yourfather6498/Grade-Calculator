@@ -1,1 +1,40 @@
 /* CSS Style Sheet */
+
+
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; /*Base Font */
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    margin: 50px 0;
+}
+
+input {
+    width: 60px;
+   height: 18px;
+   text-align: left;
+}
+
+
+button{
+  
+    background-color: rbg(60, 60, 60);
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+ }
+ button:hover{
+  background-color:yellow; 
+  color:black;
+  cursor: pointer;
+}
+
+
+.inputs{
+ font-size: 22px; 
+}
+
